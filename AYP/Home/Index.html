@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>AYP edu | Home</title>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="device=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+	<meta name="generator" content="Jekyll v4.1.1">
+
+	<link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+
+	<!-- Bootstrap core CSS -->
+	<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<style>
+		.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      	}
+      	.carousel-inner .item1 img {
+    		height: 10%;
+    		width:  100%;
+    		margin-top: -200px;
+		}
+		.carousel-inner .item2 img {
+    		height: 40%;
+    		width:  100%;
+    		margin-top: -200px;
+		}
+		.carousel-inner .item3 img {
+    		height: 40%;
+    		width:  100%;
+		}
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+	</style>
+
+	<!--custom styles for this template-->
+	<link href="carousel.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<a class="navbar-brand" href="../Home/Home.html">AYP edu</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Togglenavigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="../Home/Index.html">Home <span class="sr-only"></span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../Package/Package.html">Package</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About Us</a>
+					</li>
+					<li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tools</a>
+				        <div class="dropdown-menu" aria-labelledby="dropdown01">
+				          <a class="dropdown-item" href="#">Teachers list</a>
+				          <a class="dropdown-item" href="#">Timetable</a>
+				        </div>
+				    </li>
+				</ul>
+				<form class="form-inline mt-2 mt-md-0">
+					<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success y-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</nav>		
+	</header>
+
+	<main role="main">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="item1">
+      					<img class="edu" src="./images/Educator.jpg" alt="Educator">
+    				</div>
+					<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#666"/></svg>
+					<div class="container">
+						<div class="carousel-caption text-left">
+							<h1>Educator.</h1>
+							<p>Become a teacher</p>
+							<p><a class="btn btn-lg btn-primary href="#" role="button">Sign up today</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="item2">
+      					<img src="./images/Learner.jpg" alt="Learner">
+    				</div>
+					<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYmid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Learner.</h1>
+							<p>Learn thru your device</p>
+							<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="item3">
+      					<img src="./images/appleglobe.jpeg" alt="See more">
+    				</div>
+        			<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+        			<div class="container">
+          				<div class="carousel-caption text-right">
+            				<h1>What are you waiting for bitch.</h1>
+            				<p>See more bitch</p>
+            				<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+         				</div>
+        			</div>
+      			</div>
+    		</div>
+    		<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+    		</a>
+    		<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Next</span>
+    		</a>
+    	</div>
+
+    	<div class="container">
+	    	<div class="header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-body">
+		      <h1 class="display-4">Promo Package and Events</h1>
+		      <p class="lead">We will be offering promotions on available packages</p>
+		      <p class="lead">and special events that might interest you.</p>
+	  		</div>
+	  		<hr>
+	  	</div>>
+
+
+    	<!-- FOOTER -->
+  		<footer class="container">
+    		<p class="float-right"><a href="#">Back to top</a></p>
+    		<p>&copy; 2020-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  		</footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
+
